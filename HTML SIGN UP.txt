@@ -1,0 +1,15 @@
+<h1 align="center">COLLEGE MAGAZINE</h1>
+<h2 align="center">SIGN UP</h2> 
+<p></p>
+<div class="form"><form id="contactform">
+<p class="contact"><label for="name">Name</label></p>
+<input id="name" tabindex="1" name="name" required="" type="text" placeholder="First and last name" />
+<p class="contact"><label for="email">Email</label></p>
+<input id="email" name="email" required="" type="email" placeholder="example@domain.com" />
+<p class="contact"><label for="username">Create a username</label></p>
+<input id="username" tabindex="2" name="username" required="" type="text" placeholder="username" />
+<p class="contact"><label for="password">Create a password</label></p>
+<input id="password" name="password" required="" type="password" />
+<p class="contact"><label for="repassword">Confirm your password</label></p>
+<input id="repassword" name="repassword" required="" type="password" /><input id="submit" class="buttom" tabindex="5" name="submit" type="submit" value="Sign me up!" /></form></div>
+</div>
