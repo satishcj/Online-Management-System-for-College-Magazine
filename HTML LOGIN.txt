@@ -1,0 +1,17 @@
+</head>
+<body>
+    <div class="logincontent">
+        <div class="loginheading">
+        College Magazine Login 
+        </div>
+        <label for="UserName">
+            Username:</label>
+        <input type="text" id="UserName" name="UserName" placeholder="Username" />
+        <label for="Password">
+            Password:</label>
+        <input type="password" id="Password" name="Password" placeholder="Password" />
+            <input type="submit" class="loginbtn" value="Login" id="btnSubmit" />
+        </div>
+    </div>
+</body>
+</html>
