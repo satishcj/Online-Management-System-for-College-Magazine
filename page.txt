@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>College Magazine</title>
+<style>
+div {
+background-color: pink;
+height: 100px;
+}
+p {
+background-color: pink;
+}
+.content {
+background-color: skyblue;
+}
+.content,
+{
+margin-bottom: 10px;
+}
+.content {
+width: 30%; 
+float: left;
+padding: 2.08%;
+}
+.thumbnail {
+float: left;
+width: 50%; 
+margin-right: 3.5%;
+margin-bottom: 13px;
+text-decoration: none;
+}
+.thumbnail:nth-of-type(3n+3) {
+margin-right: 0;
+}
+</style>
+</head>
+<body>
+<p>Username</p>
+</body>
+</html>
+<html>
+<body>
+<div class="header">
+<p>Home Articles  Magazines</p>
+</div>
+<div class="content">
+<p>View Profile</p>
+<p>Articles Submission</p>
+<p>Report Error</p>
+</body>
+</html>
+<a class="thumbnail" href="#">
+<img src="http://placehold.it/213x160" />
+<p>View</p>
+<p>Download</p>
+</a>
